@@ -4,7 +4,7 @@ export default function TextInput({icon, ...rest})
 {
     return(
         <div className={classes.textInput}>
-              <input {...rest} />
+              <input {...rest} /> 
               <span className=
               "material-icons-outlined">
                  {icon} </span>
